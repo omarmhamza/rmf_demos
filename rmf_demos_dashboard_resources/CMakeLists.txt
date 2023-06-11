@@ -32,5 +32,6 @@ install(DIRECTORY
   office
   hotel
   clinic
+  warehouse
   DESTINATION share/${PROJECT_NAME}
 )
