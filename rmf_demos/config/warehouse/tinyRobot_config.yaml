@@ -44,17 +44,17 @@ robots:
   # Here the user is expected to append the configuration for each robot in the
   # fleet.
   # Configuration for tinyRobotA
-#  tinyRobotA:
-#    robot_config:
-#      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
-#    rmf_config:
-#      robot_state_update_frequency: 10.0
-#      start:
-#        map_name: "L1"
-#        waypoint: "start_A"
-#        orientation: 0.0 # radians
-#      charger:
-#        waypoint: "start_A"
+  tinyRobotA:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "L1"
+        waypoint: "start_A"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "start_A"
   # Configuration for tinyRobotB
   tinyRobotB:
     robot_config:
@@ -68,17 +68,17 @@ robots:
       charger:
         waypoint: "start_B"
   # Configuration for tinyRobotC
-#  tinyRobotC:
-#    robot_config:
-#      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
-#    rmf_config:
-#      robot_state_update_frequency: 10.0
-#      start:
-#        map_name: "L1"
-#        waypoint: "start_C"
-#        orientation: 0.0 # radians
-#      charger:
-#        waypoint: "start_C"
+  tinyRobotC:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "L1"
+        waypoint: "start_C"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "start_C"
   # Configuration for tinyRobotD
   tinyRobotD:
     robot_config:
@@ -92,14 +92,14 @@ robots:
       charger:
         waypoint: "start_D"
   # Configuration for tinyRobotE
-#  tinyRobotE:
-#    robot_config:
-#      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
-#    rmf_config:
-#      robot_state_update_frequency: 10.0
-#      start:
-#        map_name: "L1"
-#        waypoint: "start_E"
-#        orientation: 0.0 # radians
-#      charger:
-#        waypoint: "start_E"
+  tinyRobotE:
+    robot_config:
+      max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+    rmf_config:
+      robot_state_update_frequency: 10.0
+      start:
+        map_name: "L1"
+        waypoint: "start_E"
+        orientation: 0.0 # radians
+      charger:
+        waypoint: "start_E"
